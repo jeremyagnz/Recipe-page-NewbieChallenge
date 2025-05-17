@@ -137,9 +137,48 @@ p {
   color: var(--stone-600);
 }
 
-/* Optional responsive for desktop */
-@media (min-width: 1440px) {
+
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
   .container {
-    max-width: 700px;
+    max-width: 600px;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .prep-time {
+    height: auto;
+    padding: 1rem;
   }
 }
+
+/* Desktop (1440px and up) */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 736px;
+    padding: 3rem;
+    border-radius: 24px;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .image-omelette {
+    border-radius: 24px;
+  }
+}
+
