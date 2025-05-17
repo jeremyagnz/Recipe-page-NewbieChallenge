@@ -39,7 +39,7 @@ body {
 
 .container {
   background-color: var(--white);
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 1rem;
   max-width: 375px;
   width: 100%;
@@ -51,7 +51,7 @@ body {
 
 .image-omelette {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 5px;
   object-fit: cover;
 }
 
@@ -161,12 +161,13 @@ p {
   }
 }
 
+
 /* Desktop (1440px and up) */
 @media (min-width: 1440px) {
   .container {
     max-width: 736px;
     padding: 3rem;
-    border-radius: 24px;
+    border-radius: 10px;
   }
 
   h1 {
@@ -178,7 +179,7 @@ p {
   }
 
   .image-omelette {
-    border-radius: 24px;
+    border-radius: 10px;
   }
 }
 
